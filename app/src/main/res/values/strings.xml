@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SEED_Distributor_insert</string>
+    <string name="Software_Name">Software Name</string>
+    <string name="Add_Profile_Photo_Button">Add Profile Photo Button</string>
+    <string name="Owner_Name">   Name</string>
+    <string name="Shop_Name">   Shop Name</string>
+    <string name="Shop_Address">   Address</string>
+    <string name="Nearest_City">   City</string>
+    <string name="Seed">   Seed</string>
+    <string name="Price_Of_seed">   Price</string>
+    <string name="Add_button" />
+    <string name="Edit_click">Edit</string>
+    <string name="Shop_Name_Update_Page">Shop Name</string>
+    <string name="Shop_Update_page">   Lakshan Stores</string>
+    <string name="Delete_account_click">Delete Account</string>
+    <string name="Complete_request_delete_page">Complete Request</string>
+    <string name="Request_list_delete_page">2 . Request </string>
+    <string name="Date_request_delete_page">Date</string>
+    <string name="Remove_seed_delete_page">Remove Seeds</string>
+    <string name="Remove_list_delete_page">1 . Carrot</string>
+    <string name="Change_seeds_list_update">Change Seed List</string>
+    <string name="Change_seed_update_page">1 . Beans</string>
+    <string name="Change_seed_price_update_page">RS. 50</string>
+    <string name="Edit_click_update_page">Edit</string>
+    <string name="Store_Name">Lakshan Store</string>
+    <string name="Current_date">10/03/2023</string>
+    <string name="Request_View_button">Requests</string>
+    <string name="Complete_request_button">Complete</string>
+    <string name="Seed_List_Heading">Seed</string>
+    <string name="Price_heading">price (per 100g)</string>
+    <string name="List_seed">1. Beans</string>
+    <string name="Price_list">"RS. 50 "</string>
+</resources>

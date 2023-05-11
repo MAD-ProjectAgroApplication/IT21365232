@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width" />
+    <dimen name="Menu_width">55dp</dimen>
+    <dimen name="menu_height">46dp</dimen>
+    <dimen name="Profile_view_constraints_width">400dp</dimen>
+    <dimen name="Profile_view_constraint_height">150dp</dimen>
+    <dimen name="Profile_photo_profile_view_width">400dp</dimen>
+    <dimen name="Profile_photo_height">130dp</dimen>
+    <dimen name="Request_button_widht">180dp</dimen>
+    <dimen name="Request_button_heigth">115dp</dimen>
+    <dimen name="Complete_button_width">180dp</dimen>
+    <dimen name="Complete_button_Height">115dp</dimen>
+    <dimen name="Seed_view_constraints_view_page_width">400dp</dimen>
+    <dimen name="Seed_view_constraints_view_page_height">300dp</dimen>
+    <dimen name="Edit_button_view_page_width">67dp</dimen>
+    <dimen name="Edit_button_view_page_height">44dp</dimen>
+    <dimen name="Insert_constraint_width">401dp</dimen>
+    <dimen name="Insert_constraint_height">650dp</dimen>
+    <dimen name="Profile_photo_insert_width">152dp</dimen>
+    <dimen name="profilr_photo_insert_height">139dp</dimen>
+    <dimen name="background_photo_insert_form_width">476dp</dimen>
+    <dimen name="background_photo_insert_form_height">548dp</dimen>
+    <dimen name="Insert_data_width">340dp</dimen>
+    <dimen name="Insert_data_height">50dp</dimen>
+    <dimen name="Update_constraint_form_width">404dp</dimen>
+    <dimen name="Update_constraint_form_height">285dp</dimen>
+    <dimen name="delete_constraint_form_widht">406dp</dimen>
+    <dimen name="delete_constraint_form_height">488dp</dimen>
+</resources>
