@@ -1,34 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/pngtree_agriculture_wheat_vector_illustration_design_template_png_image_1870350"
     android:orientation="vertical"
     android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop Number"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/sshopNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#100C0C"
         android:ems="10"
-        android:hint="Shop Number" />
+        android:hint="Shop Number"
+        android:textColor="#0E0505" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seed Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/sseedName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
         android:ems="10"
-        android:hint="Seed Name" />
+        android:hint="Seed Name"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seed Price"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/sprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
         android:ems="10"
         android:hint="Seed price"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/btnUpdateData"
@@ -36,7 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Update Data" />
+        android:backgroundTint="#009688"
+        android:text="Update Data"
+        app:cornerRadius="10dp" />
 
 
 </LinearLayout>

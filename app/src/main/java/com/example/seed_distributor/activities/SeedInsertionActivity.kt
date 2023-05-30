@@ -40,20 +40,38 @@ class SeedInsertionActivity : AppCompatActivity() {
     private fun saveSeedData() {
 
         //getting values
-        val shopNumber = sshopNumber.text.toString()
-        val seedName = sseedName.text.toString()
-        val price = sprice.text.toString()
+        val shopNumber = sshopNumber.text.toString().trim()
+        val seedName = sseedName.text.toString().trim()
+        val price = sprice.text.toString().trim()
 
 
-
+        val mobilePattern = "^[+]?[0-9]{10}\$"
+        if (!shopNumber.matches(mobilePattern.toRegex())) {
+            sshopNumber.error = "Please enter 10 valid phone"
+            return@saveSeedData
+        }
         if (shopNumber.isEmpty()) {
             sshopNumber.error = "Please enter shopNumber"
+            return@saveSeedData
         }
         if (seedName.isEmpty()) {
             sseedName.error = "Please enter seed name"
+            return@saveSeedData
         }
+        val pricepatern = "[0-9]+"
+        if (!price.matches(pricepatern.toRegex())) {
+            sprice.error = "Please enter price"
+            return@saveSeedData
+        }
+
         if (price.isEmpty()) {
             sprice.error = "Please enter price"
+            return@saveSeedData
+        }
+        val seedpatern = "[a-zA-z ]+"
+        if(!seedName.matches(seedpatern.toRegex())){
+              sseedName.error="Enter only characters"
+            return@saveSeedData
         }
 
         val sId = dbRef.push().key!!

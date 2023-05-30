@@ -18,4 +18,6 @@
     <color name="Remove_button">#FF6363</color>
     <color name="Remove_seed_delete">#03A9F4</color>
     <color name="Remove_seed">#E91E63</color>
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#ff424242</color>
 </resources>

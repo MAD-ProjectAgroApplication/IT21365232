@@ -97,6 +97,8 @@ class SeedDetailsActivity : AppCompatActivity() {
         val sprice = mDialogView.findViewById<EditText>(R.id.sprice)
 
 
+
+
         val btnUpdateData = mDialogView.findViewById<Button>(R.id.btnUpdateData)
 
         sshopNumber.setText(intent.getStringExtra("shopNumber").toString())
@@ -116,6 +118,7 @@ class SeedDetailsActivity : AppCompatActivity() {
                 sseedName.text.toString(),
                 sprice.text.toString()
 
+
             )
 
             Toast.makeText(applicationContext, "Seed Data Updated", Toast.LENGTH_LONG).show()
@@ -124,6 +127,8 @@ class SeedDetailsActivity : AppCompatActivity() {
             tvshopNumber.text = sshopNumber.text.toString()
             tvseedName.text = sseedName.text.toString()
             tvprice.text = sprice.text.toString()
+
+
 
             alertDialog.dismiss()
         }

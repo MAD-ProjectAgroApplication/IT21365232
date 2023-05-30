@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/istockphoto_165908320_612x612"
     tools:context=".activities.MainActivity">
 
     <TextView
@@ -36,11 +37,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="405dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginStart="1dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginEnd="5dp"
         android:background="@drawable/profile_grdnt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -72,23 +73,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="168dp"
-            android:layout_height="158dp"
-            app:layout_constraintStart_toEndOf="@+id/store_name"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/home_page_profile_user_icon_1320184041392976124" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="1dp"
         android:background="@drawable/profile2_grdnt"
+        android:backgroundTint="#77E3CECE"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
@@ -155,6 +151,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="8dp"
             android:text="Shop ID"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -166,7 +163,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginTop="8dp"
-            android:text="Shop Name"
+            android:text="Shop Number"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -179,6 +177,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:text="Seed Name"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -191,6 +190,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="80dp"
             android:text="Price"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -198,21 +198,27 @@
 
         <Button
             android:id="@+id/btnUpdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="107dp"
+            android:layout_height="62dp"
             android:layout_marginStart="61dp"
             android:layout_marginTop="42dp"
+            android:backgroundTint="#AE30813D"
             android:text="update"
+            android:textSize="15sp"
+            app:cornerRadius="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvprice" />
 
         <Button
             android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="107dp"
+            android:layout_height="62dp"
             android:layout_marginTop="42dp"
-            android:layout_marginEnd="93dp"
+            android:layout_marginEnd="61dp"
+            android:backgroundTint="#B82424"
             android:text="delete"
+            android:textSize="15sp"
+            app:cornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvprice" />
 
